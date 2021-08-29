@@ -35,7 +35,7 @@ function AdDesigner () {
                 <h3>Font Size</h3>
                 <button disabled={size === 0} onClick={() => {setSize(size - 1)}}>Down</button>
                 {size}
-                <button disabled={size === 67} onClick={() => {setSize(size + 1)}}>Up</button>   
+                <button disabled={size === 80} onClick={() => {setSize(size + 1)}}>Up</button>   
             </label>
         </div>
         </div>
