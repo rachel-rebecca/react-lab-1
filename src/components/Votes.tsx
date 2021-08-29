@@ -20,17 +20,17 @@ function Votes () {
             <p>
                 {total === 0 ? "No Votes" : ""}
             </p>
-            
+
         <div className={choc === 0 ? "hidden" : "progressDiv"} > 
-            <p>
+            <p className={choc === 0 ? "hidden" : ""}>
             Chocolate: {choc === 0 ? "" : choc} ({choc === 0 ? 0 : (choc / total * 100).toFixed(1)}%)
             <ProgressBar id="chocolate" now={choc} />
             </p>
-            <p>
+            <p className={van === 0 ? "hidden" : ""}>
             Vanilla: {van === 0 ? "" : van} ({van === 0 ? 0 :(van / total * 100).toFixed(1)}%)
             <ProgressBar id="vanilla" now={van} />
             </p>
-            <p>
+            <p className={straw === 0 ? "hidden" : ""}>
             Strawberry: {straw === 0 ? "" : straw} ({straw === 0 ? 0 : (straw / total * 100).toFixed(1)}%)
             <ProgressBar id="strawberry" now={straw} />
             </p>
