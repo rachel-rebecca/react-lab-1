@@ -19,15 +19,15 @@ function Votes () {
        
         <div className="progressDiv">
             <p>
-            Chocolate: {choc === 0 ? "No Votes" : choc} ({(choc / total * 100).toFixed(2)}%)
+            Chocolate: {choc === 0 ? "No Votes" : choc} ({choc === 0 ? 0 : (choc / total * 100).toFixed(2)}%)
             <ProgressBar id="chocolate" now={choc} />
             </p>
             <p>
-            Vanilla: {van === 0 ? "No Votes" : van} ({(van / total * 100).toFixed(2)}%)
+            Vanilla: {van === 0 ? "No Votes" : van} ({van === 0 ? 0 :(van / total * 100).toFixed(2)}%)
             <ProgressBar id="vanilla" now={van} />
             </p>
             <p>
-            Strawberry: {straw === 0 ? "No Votes" : straw} ({(straw / total * 100).toFixed(2)}%)
+            Strawberry: {straw === 0 ? "No Votes" : straw} ({straw === 0 ? 0 : (straw / total * 100).toFixed(2)}%)
             <ProgressBar id="strawberry" now={straw} />
             </p>
         </div>
