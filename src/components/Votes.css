@@ -1,0 +1,47 @@
+button {
+    margin-bottom: 10px;
+}
+
+#chocolate .progress-bar {
+   background: rgb(88, 65, 43);
+  
+}
+
+#vanilla .progress-bar {
+   background: rgb(194, 174, 164);
+}
+
+#strawberry .progress-bar {
+   background: rgb(175, 94, 125);
+}
+
+.progressDiv {
+    width: 70vw;
+}
+
+p {
+    margin: 3px;
+}
+
+
+
+
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width: 720px) {
+
+    .container {
+        width: 40vw;
+    }
+
+    .progressDiv {
+        width: 40vw;
+        margin-right: 5px;
+    }
+
+    p {
+        margin: 8px;
+    }
+    
+}

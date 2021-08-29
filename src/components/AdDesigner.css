@@ -1,0 +1,89 @@
+h2 {
+    margin: 10px 5px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.divVoteFor{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.lightTheme {
+    border: solid 3px #222;
+    color: #000;
+    box-shadow: 0 0 10px #000;
+}
+
+.darkTheme {
+    border: solid 3px whitesmoke;
+    color: #fff;
+    background: #222;
+    box-shadow: 0 0 10px #000;
+}
+
+h3 {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: .9rem;
+    padding: 3px 8px;
+    background:  #0e3c7e;
+    color: #fff;  
+}
+
+button:disabled {
+    background: gray;
+}
+
+.point {
+    pointer-events: none;
+}
+
+.labelDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: .9rem;
+}
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width: 720px) {
+
+    .container{
+        width: 40vw;
+    }
+
+    label {
+        margin: 15px;
+    }
+
+    .divVoteFor {
+        height: 30vh;
+    }
+}
