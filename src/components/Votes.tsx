@@ -17,7 +17,7 @@ function Votes () {
         <button disabled={total >= 100} onClick={() => {setVan(prev => prev + 1)}}>Vanilla</button>
         <button disabled={total >= 100} onClick={() => {setStraw(prev => prev + 1)}}>Strawberry</button>
 
-            <p>
+            <p className="noVotes">
                 {total === 0 ? "No Votes" : ""}
             </p>
 

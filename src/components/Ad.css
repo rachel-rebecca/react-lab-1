@@ -1,0 +1,41 @@
+h2 {
+    margin: 10px 5px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* .ads {
+    display: flex;
+    flex-direction: row;
+} */
+
+.divVoteFor2{
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    overflow:hidden;
+}
+
+.lightTheme {
+    border: solid 3px #222;
+    color: #000;
+    box-shadow: 0 0 10px #000;
+}
+
+.darkTheme {
+    border: solid 3px whitesmoke;
+    color: #fff;
+    background: #222;
+    box-shadow: 0 0 10px #000;
+}
+
+h3 {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .9rem;
+}

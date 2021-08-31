@@ -4,6 +4,12 @@
   flex-direction: column;
 }
 
+.adsDiv {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  width: 100vw;
+}
 
 @media only screen and (min-width: 720px) {
   .AdVotes {

@@ -5,6 +5,12 @@ h2 {
     font-size: 2rem;
 }
 
+.ads {
+   
+    width: 10vw;
+    height: 15vh;
+}
+
 .divVoteFor{
     width: 50vw;
     height: 20vh;
